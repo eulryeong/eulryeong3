@@ -3,15 +3,6 @@
 const video = document.getElementById("myVideo");
 const playPauseBtn = document.getElementById("playPauseBtn");
 
-playPauseBtn.addEventListener("click", function() {
-  if (video.paused) {
-    video.play();
-    playPauseBtn.textContent = "일시 정지";
-  } else {
-    video.pause();
-    playPauseBtn.textContent = "재생";
-  }
-});
 
 
 
