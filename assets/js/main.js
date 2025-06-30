@@ -1,11 +1,4 @@
 
-
-const video = document.getElementById("myVideo");
-const playPauseBtn = document.getElementById("playPauseBtn");
-
-
-
-
 (function() {
   "use strict";
 
